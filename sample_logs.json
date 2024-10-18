@@ -1,0 +1,22 @@
+{ "index" : { "_index" : "logs", "_id" : "1" } }
+{ "order_id": "12345", "appName": "payment-service", "status": "completed", "timestamp": "2024-09-10T10:00:00", "errorDetails": null }
+{ "index" : { "_index" : "logs", "_id" : "2" } }
+{ "order_id": "12345", "appName": "inventory-service", "status": "processing", "timestamp": "2024-09-10T09:55:00", "errorDetails": null }
+{ "index" : { "_index" : "logs", "_id" : "3" } }
+{ "order_id": "67890", "appName": "checkout-service", "status": "failed", "timestamp": "2024-09-08T12:00:00", "errorDetails": "Out of stock" }
+{ "index" : { "_index" : "logs", "_id" : "4" } }
+{ "order_id": "12345", "appName": "shipping-service", "status": "delivered", "timestamp": "2024-09-11T14:30:00", "errorDetails": null }
+{ "index" : { "_index" : "logs", "_id" : "5" } }
+{ "order_id": "55555", "appName": "payment-service", "status": "failed", "timestamp": "2024-09-12T11:00:00", "errorDetails": "Payment declined" }
+{ "index" : { "_index" : "logs", "_id" : "6" } }
+{ "order_id": "55555", "appName": "inventory-service", "status": "processing", "timestamp": "2024-09-12T10:55:00", "errorDetails": null }
+{ "index" : { "_index" : "logs", "_id" : "7" } }
+{ "order_id": "67890", "appName": "inventory-service", "status": "completed", "timestamp": "2024-09-08T11:50:00", "errorDetails": null }
+{ "index" : { "_index" : "logs", "_id" : "8" } }
+{ "order_id": "99999", "appName": "checkout-service", "status": "failed", "timestamp": "2024-09-13T15:20:00", "errorDetails": "Item not available" }
+{ "index" : { "_index" : "logs", "_id" : "9" } }
+{ "order_id": "99999", "appName": "inventory-service", "status": "processing", "timestamp": "2024-09-13T15:15:00", "errorDetails": null }
+{ "index" : { "_index" : "logs", "_id" : "10" } }
+{ "order_id": "88888", "appName": "payment-service", "status": "completed", "timestamp": "2024-09-14T09:30:00", "errorDetails": null }
+{ "index" : { "_index" : "logs", "_id" : "11" } }
+{ "order_id": "88888", "appName": "shipping-service", "status": "in transit", "timestamp": "2024-09-14T10:00:00", "errorDetails": null }

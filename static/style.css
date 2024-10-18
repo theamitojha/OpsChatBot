@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+/* Chat Header */
+.chat-header {
+    background-color: #4a76a8;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.chat-header-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.chat-header-title i {
+    margin-right: 10px;
+}
+
+/* Chat Content */
+.chat-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #e5ddd5;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.message.user .message-content {
+    margin-left: auto;
+    background-color: #dcf8c6;
+    border-bottom-right-radius: 0;
+}
+
+.message.agent .message-content {
+    margin-right: auto;
+    background-color: #ffffff;
+    border-bottom-left-radius: 0;
+}
+
+.message-content {
+    max-width: 75%;
+    padding: 10px 15px;
+    border-radius: 18px;
+    position: relative;
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.4;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* Chat Input */
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f2f5;
+    border-top: 1px solid #ddd;
+}
+
+#userInput {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    background-color: #ffffff;
+    margin-right: 10px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+#sendButton {
+    background-color: #4a76a8;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#sendButton:hover {
+    background-color: #3e6389;
+}
+
+#sendButton i {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .chat-container {
+        width: 100%;
+        height: 100vh;
+    }
+}
